@@ -1,0 +1,22 @@
+state=
+{
+	id=317
+	name="STATE_317"
+	state_category = wasteland
+	buildings_max_level_factor=1.00
+	manpower = 1
+    history=
+	{
+	    owner = WBS
+		buildings = {
+		    infrastructure = 0
+			arms_factory = 0
+			industrial_complex = 0
+			air_base = 0
+		}
+		add_core_of = WBS
+	}
+	provinces={
+		433 905 3263 3317 6516 6518 6526 
+	}
+}

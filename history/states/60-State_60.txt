@@ -1,0 +1,22 @@
+state=
+{
+	id=60
+	name="STATE_60"
+	state_category = wasteland
+	buildings_max_level_factor=1.00
+	manpower = 1
+    history=
+	{
+	    owner = BEA
+		buildings = {
+		    infrastructure = 0
+			arms_factory = 0
+			industrial_complex = 0
+			air_base = 0
+		}
+		add_core_of = BEA
+	}
+	provinces={
+		2 4 852 882 915 942 1167 1240 1436 1522 3340 3522 
+	}
+}

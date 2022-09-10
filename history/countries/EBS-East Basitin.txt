@@ -1,0 +1,62 @@
+capital = 334
+
+set_research_slots = 3
+set_stability = 0.8
+set_war_support = 0.6
+set_convoys = 159
+
+set_politics = {
+	ruling_party = neutrality
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 2
+	communism = 1
+	neutrality = 74
+	fascism = 23
+}
+
+create_country_leader = {
+	name = "Franklin"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_Expedition_Leonardo.dds"
+	expire = "1947.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "William"
+	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	picture = "Portrait_Expedition_Leonardo.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Leonardo"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "Portrait_Expedition_Leonardo.dds"
+	expire = "1965.1.1"
+	ideology = anarchist_communism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Haile"
+	desc = "POLITICS_HAILE_SELASSIE_DESC"
+	picture = "Portrait_Expedition_Leonardo.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+
+	}
+}

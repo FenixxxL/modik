@@ -1,0 +1,22 @@
+state=
+{
+	id=36
+	name="STATE_36"
+	state_category = wasteland
+	buildings_max_level_factor=1.00
+	manpower = 1
+    history=
+	{
+	    owner = FWO
+		buildings = {
+		    infrastructure = 0
+			arms_factory = 0
+			industrial_complex = 0
+			air_base = 0
+		}
+		add_core_of = FWO
+	}
+	provinces={
+		109 298 624 656 716 739 894 914 1612 1643 1776 1781 2268 2506 2722 3339 3494 6252 6256 6258 6261 6272 6276 6277 6279 6281 6287 6288 6296 6306 6318 6319 6320 6323 6324 6334 6338 6357 12727
+	}
+}

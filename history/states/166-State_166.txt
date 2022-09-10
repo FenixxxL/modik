@@ -1,0 +1,21 @@
+state=
+{
+	id=166
+	name="STATE_166"
+	state_category = wasteland
+	buildings_max_level_factor=1.00
+	manpower = 1
+    history=
+	{
+	    owner = HUM
+		buildings = {
+		    infrastructure = 0
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = HUM
+	}
+	provinces={
+		544 549 630 767 1067 1193 1330 1354 1696 2051 2294 2589 3057 3135 3181 3394 3427 3438 3459 4316 4355 4376 4401 4413 4435 4445 4450 4491 4503 4545 4546 4554 4582 4593 4634 
+	}
+}

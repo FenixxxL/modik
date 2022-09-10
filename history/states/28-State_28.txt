@@ -1,0 +1,22 @@
+state=
+{
+	id=28
+	name="STATE_28"
+	state_category = wasteland
+	buildings_max_level_factor=1.00
+	manpower = 1
+    history=
+	{
+	    owner = TIG
+		buildings = {
+		    infrastructure = 0
+			arms_factory = 0
+			industrial_complex = 0
+			air_base = 0
+		}
+		add_core_of = TIG
+	}
+	provinces={
+		1371 1808 2036 2170 2319 2623 5932 5984 5990 6022 6048 6068 6089
+	}
+}

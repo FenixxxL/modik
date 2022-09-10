@@ -1,0 +1,21 @@
+state=
+{
+	id=128
+	name="STATE_128"
+	state_category = large_city
+	buildings_max_level_factor=1.00
+	manpower = 20000
+    history=
+	{
+	    owner = HUM
+		buildings = {
+		    infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+		}
+		add_core_of = HUM
+	}
+	provinces={
+		103 119 347 633 736 760 1131 1135 1141 1349 1490 1780 1860 1868 2275 3053 3237 3884 3908 3936 3938 3955 3966 3976 4003 4004 4013 4028 4035 4042 4079 4097 4105 4166 4213
+	}
+}

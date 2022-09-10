@@ -1,0 +1,22 @@
+state=
+{
+	id=334
+	name="STATE_334"
+	state_category = wasteland
+	buildings_max_level_factor=1.00
+	manpower = 1
+    history=
+	{
+	    owner = EBS
+		buildings = {
+		    infrastructure = 0
+			arms_factory = 0
+			industrial_complex = 0
+			air_base = 0
+		}
+		add_core_of = EBS
+	}
+	provinces={
+		24 64 158 200 381 412 429 480 591 607 740 754 1475 1520 1626 2185 2586 2771 3084 3132 6607 6608 6614 6618 6619 
+	}
+}

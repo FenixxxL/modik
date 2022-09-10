@@ -1,0 +1,22 @@
+state=
+{
+	id=50
+	name="STATE_50"
+	state_category = wasteland
+	buildings_max_level_factor=1.00
+	manpower = 1
+    history=
+	{
+	    owner = FOX
+		buildings = {
+		    infrastructure = 0
+			arms_factory = 0
+			industrial_complex = 0
+			air_base = 0
+		}
+		add_core_of = FOX
+	}
+	provinces={
+		1053 1183 1278 1357 1888 2225 2826 3098 6525 6535 6543 6544 6548 6552 6561 6564 
+	}
+}

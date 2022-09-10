@@ -1,0 +1,22 @@
+state=
+{
+	id=82
+	name="STATE_82"
+	state_category = wasteland
+	buildings_max_level_factor=1.00
+	manpower = 1
+    history=
+	{
+	    owner = SWO
+		buildings = {
+		    infrastructure = 0
+			arms_factory = 0
+			industrial_complex = 0
+			air_base = 0
+		}
+		add_core_of = SWO
+	}
+	provinces={
+		86 183 385 413 645 836 1305 1889 2396 2873 3040 3179 3629 3681 3708 
+	}
+}

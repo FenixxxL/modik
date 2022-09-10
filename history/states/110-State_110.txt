@@ -1,0 +1,22 @@
+state=
+{
+	id=110
+	name="STATE_110"
+	state_category = wasteland
+	buildings_max_level_factor=1.00
+	manpower = 1
+    history=
+	{
+	    owner = FWO
+		buildings = {
+		    infrastructure = 0
+			arms_factory = 0
+			industrial_complex = 0
+			air_base = 0
+		}
+		add_core_of = FWO
+	}
+	provinces={
+		919 926 1863 2041 2063 2233 2872 2878 2973 3860 3871 3896 3900 3930 
+	}
+}

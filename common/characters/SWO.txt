@@ -1,0 +1,16 @@
+characters={
+	PIR_Leonardo={
+		name=PIR_LEONARDO
+		portraits={
+			civilian={
+				large=GFX_Portrait_Expedition_Leonardo
+			}
+		}
+		country_leader={
+		    traits = { snuggler }
+			ideology=anarchist_communism
+			expire="1965.1.1.1"
+		}
+	}
+	
+}

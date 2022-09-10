@@ -1,0 +1,22 @@
+state=
+{
+	id=343
+	name="STATE_343"
+	state_category = wasteland
+	buildings_max_level_factor=1.00
+	manpower = 1
+    history=
+	{
+	    owner = PIR
+		buildings = {
+		    infrastructure = 0
+			arms_factory = 0
+			industrial_complex = 0
+			air_base = 0
+		}
+		add_core_of = PIR
+	}
+	provinces={
+		379 685 1192 1198 2261 3120 
+	}
+}
