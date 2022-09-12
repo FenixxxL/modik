@@ -537,14 +537,6 @@ technologies = {
 				factor = 5
 				tag = GER
 			}
-
-			modifier = {
-				factor = 10
-				tag = GER
-
-				POL = { has_capitulated = yes }
-				GER = { has_war = yes }
-			}
 			
 			modifier = {
 				factor = 5
