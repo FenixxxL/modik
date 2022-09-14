@@ -1,5 +1,5 @@
 characters={
-	PIR_Leonardo={
+	PIR_Leonardon={
 		name=PIR_LEONARDO
 		portraits={
 			civilian={
