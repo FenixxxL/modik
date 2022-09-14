@@ -536,8 +536,7 @@ technologies = {
 			modifier = {
 				factor = 5
 				tag = GER
-			}
-			
+			}	
 			modifier = {
 				factor = 5
 				tag = JAP

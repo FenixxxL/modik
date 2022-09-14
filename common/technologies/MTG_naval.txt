@@ -1,11 +1,5 @@
-technologies = {
-
-#   ###  ##  #  # ###      ## #  # ### ###   ##
-#    #  #    #  #  #      #   #  #  #  #  # #
-#    #  # ## ####  #       #  ####  #  ###   #
-#    #  #  # #  #  #        # #  #  #  #      #
-### ###  ##  #  #  #      ##  #  # ### #    ##
-
+technologies = 
+{
 
 	early_ship_hull_light = {
 
@@ -53,7 +47,6 @@ technologies = {
 
 			modifier = {
 				factor = 4
-				tag = ENG
 			}
 		}
 
@@ -90,10 +83,6 @@ technologies = {
 
 			modifier = {
 				factor = 4
-				OR = {
-					tag = ENG
-					tag = JAP
-				}
 			}
 			modifier = {
 				has_war = yes
@@ -136,9 +125,6 @@ technologies = {
 			modifier = {
 				factor = 4
 				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
 				}
 			}
 		}
@@ -173,9 +159,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
+
 				}
 			}
 		}
@@ -204,7 +188,6 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				tag = ENG
 			}
 		}
 
@@ -214,14 +197,6 @@ technologies = {
 			ship_modules_tech
 		}
 	}
-
- ##  #  # ### ###      ## #  # ###  #   #  ##  ###  ### #  # ###
-#  # ## #  #   #      #   #  # #  # ## ## #  # #  #  #  ## # #
-#### # ##  #   #       #  #  # ###  # # # #### ###   #  # ## ##
-#  # #  #  #   #        # #  # #  # #   # #  # #  #  #  #  # #
-#  # #  #  #  ###     ##   ##  ###  #   # #  # #  # ### #  # ###
-
-
 	basic_depth_charges = {
 
 		enable_equipment_modules = {
@@ -254,7 +229,6 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				has_war_with = GER
 			}
 			modifier = {
 				factor = 2
@@ -299,7 +273,6 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				has_war_with = GER
 			}
 			modifier = {
 				factor = 2
@@ -343,7 +316,6 @@ technologies = {
 
 			modifier = {
 				factor = 4
-				has_war_with = GER
 			}
 			modifier = {
 				factor = 2
@@ -384,7 +356,6 @@ technologies = {
 
 			modifier = {
 				factor = 4
-				has_war_with = GER
 			}
 			modifier = {
 				factor = 2
@@ -424,7 +395,6 @@ technologies = {
 
 			modifier = {
 				factor = 4
-				has_war_with = GER
 			}
 			modifier = {
 				factor = 2
@@ -461,7 +431,6 @@ technologies = {
 
 			modifier = {
 				factor = 4
-				has_war_with = GER
 			}
 			modifier = {
 				factor = 2
@@ -476,13 +445,6 @@ technologies = {
 			ship_modules_tech
 		}
 	}
-
- ##  ###  #  # ###  ## ### ###   ##
-#  # #  # #  #  #  #   #   #  # #
-#    ###  #  #  #   #  ##  ###   #
-#  # #  # #  #  #    # #   #  #   #
- ##  #  #  ##  ### ##  ### #  # ##
-
 	early_ship_hull_cruiser = {
 
 		enable_equipments = {
@@ -521,11 +483,6 @@ technologies = {
 
 			modifier = {
 				factor = 4
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
 			}
 		}
 
@@ -569,11 +526,6 @@ technologies = {
 
 			modifier = {
 				factor = 4
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
 			}
 		}
 
@@ -610,11 +562,6 @@ technologies = {
 			factor = 1
 
 			modifier = {
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
 				factor = 4
 			}
 		}
@@ -648,10 +595,6 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				OR = {
-					tag = ENG
-					tag = USA
-				}
 			}
 		}
 
@@ -687,11 +630,6 @@ technologies = {
 
 			modifier = {
 				factor = 3.5
-				OR = {
-					tag = GER
-					tag = JAP
-					tag = USA
-				}
 			}
 		}
 
@@ -736,11 +674,6 @@ technologies = {
 
 			modifier = {
 				factor = 3
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
 			}
 		}
 
@@ -785,11 +718,6 @@ technologies = {
 
 			modifier = {
 				factor = 3
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
 			}
 		}
 
@@ -828,11 +756,6 @@ technologies = {
 
 			modifier = {
 				factor = 3
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
 			}
 		}
 
@@ -843,14 +766,6 @@ technologies = {
 			ship_modules_tech
 		}
 	}
-
-#  # ###  ##  #   # #   #      ## #  # ### ###   ##
-#  # #   #  # #   #  # #      #   #  #  #  #  # #
-#### ##  ####  # #    #        #  ####  #  ###   #
-#  # #   #  #  # #    #         # #  #  #  #      #
-#  # ### #  #   #     #       ##  #  # ### #    ##
-
-
 	early_ship_hull_heavy = {
 
 		enable_equipments = {
@@ -887,11 +802,6 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
 			}
 			modifier = {
 				is_major = yes
@@ -940,11 +850,6 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
 			}
 			modifier = {
 				is_major = yes
@@ -981,7 +886,6 @@ technologies = {
 
 			modifier = {
 				factor = 25
-				tag = JAP
 			}
 		}
 
@@ -1019,7 +923,6 @@ technologies = {
 
 			modifier = {
 				factor = 5
-				tag = USA
 			}
 			modifier = {
 				is_major = no
@@ -1056,7 +959,6 @@ technologies = {
 
 			modifier = {
 				factor = 5
-				tag = USA
 
 			}
 			modifier = {
@@ -1105,11 +1007,6 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
 			}
 		}
 
@@ -1150,10 +1047,6 @@ technologies = {
 
 			modifier = {
 				factor = 4
-				OR = {
-					tag = ENG
-					tag = USA
-				}
 			}
 			modifier = {
 				has_tech = improved_ship_hull_heavy
@@ -1169,13 +1062,8 @@ technologies = {
 		}
 	}
 
- ##   ##  ###  ###  ### ### ###   ##
-#  # #  # #  # #  #  #  #   #  # #
-#    #### ###  ###   #  ##  ###   #
-#  # #  # #  # #  #  #  #   #  #   #
- ##  #  # #  # #  # ### ### #  # ##
 
-early_ship_hull_carrier = {
+    early_ship_hull_carrier = {
 
 		enable_equipments = {
 			ship_hull_carrier_conversion_bb
@@ -1207,11 +1095,6 @@ early_ship_hull_carrier = {
 
 			modifier = {
 				factor = 8
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
 			}
 		}
 
@@ -1248,11 +1131,6 @@ early_ship_hull_carrier = {
 
 			modifier = {
 				factor = 8
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
 			}
 		}
 
@@ -1289,11 +1167,6 @@ early_ship_hull_carrier = {
 
 			modifier = {
 				factor = 8
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
 			}
 		}
 
@@ -1325,11 +1198,6 @@ early_ship_hull_carrier = {
 
 			modifier = {
 				factor = 8
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
 			}
 		}
 
@@ -1338,13 +1206,6 @@ early_ship_hull_carrier = {
 			cv_tech
 		}
 	}
-
-###  ##  ###  ###  ### ###   ##      #   #  ##  ###   ##  ### ###  ###                  ## #  # ###  #   #  ##  ###  ### #  # ###  ##
- #  #  # #  # #  # #   #  # #  #     #   # #  # #  # #  # #   #  # #       {~._.~}     #   #  # #  # ## ## #  # #  #  #  ## # #   #
- #  #  # ###  ###  ##  #  # #  #     # # # #### ###  #### ##  ###  ##       ( Y )       #  #  # ###  # # # #### ###   #  # ## ##   #
- #  #  # #  # #    #   #  # #  #     # # # #  # #  # #  # #   #  # #       ()~*~()       # #  # #  # #   # #  # #  #  #  #  # #     #
- #   ##  #  # #    ### ###   ##       # #  #  # #  # #  # #   #  # ###     (_)-(_)     ##   ##  ###  #   # #  # #  # ### #  # ### ##
-
 	basic_torpedo = {
 
 		research_cost = 2.0
@@ -1382,11 +1243,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				OR = {
-					tag = JAP
-					tag = USA
-					tag = GER
-				}
 				factor = 5
 			}
 			modifier = {
@@ -1443,11 +1299,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				OR = {
-					tag = JAP
-					tag = USA
-					tag = GER
-				}
 				factor = 5
 			}
 			modifier = {
@@ -1455,7 +1306,6 @@ early_ship_hull_carrier = {
 				factor = 3
 			}
 			modifier = {
-				tag = JAP #Japan wants torpedoes EXTRA HARD
 				factor = 2
 			}
 		}
@@ -1494,11 +1344,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				OR = {
-					tag = JAP
-					tag = USA
-					tag = GER
-				}
 				factor = 5
 			}
 			modifier = {
@@ -1534,11 +1379,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				OR = {
-					tag = JAP
-					tag = USA
-					tag = GER
-				}
 				factor = 5
 			}
 		}
@@ -1578,7 +1418,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				tag = JAP
 				factor = 5
 			}
 		}
@@ -1617,7 +1456,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				tag = JAP
 				factor = 5
 			}
 		}
@@ -1650,7 +1488,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				tag = JAP
 				factor = 5
 			}
 		}
@@ -1691,10 +1528,6 @@ early_ship_hull_carrier = {
 
 			modifier = {
 				factor = 7
-				OR = {
-					tag = GER
-					tag = USA
-				}
 			}
 		}
 
@@ -1736,10 +1569,6 @@ early_ship_hull_carrier = {
 
 			modifier = {
 				factor = 7
-				OR = {
-					tag = GER
-					tag = USA
-				}
 			}
 		}
 
@@ -1783,10 +1612,6 @@ early_ship_hull_carrier = {
 
 			modifier = {
 				factor = 7
-				OR = {
-					tag = GER
-					tag = USA
-				}
 			}
 		}
 
@@ -1820,10 +1645,6 @@ early_ship_hull_carrier = {
 
 			modifier = {
 				factor = 7
-				OR = {
-					tag = GER
-					tag = USA
-				}
 			}
 		}
 
@@ -1859,16 +1680,9 @@ early_ship_hull_carrier = {
 
 			modifier = {
 				factor = 7
-				OR = {
-					tag = GER
-					tag = HOL
-				}
+
 			}
 			modifier = {
-				not = {
-					has_war_with = ENG
-					has_War_with = USA
-				}
 				factor = 0.5
 			}
 		}
@@ -1911,10 +1725,7 @@ early_ship_hull_carrier = {
 
 			modifier = {
 				factor = 7
-				OR = {
-					tag = GER
-					tag = HOL
-				}
+
 			}
 		}
 
@@ -1924,14 +1735,6 @@ early_ship_hull_carrier = {
 			ship_modules_tech
 		}
 	}
-
- ##  ###  #   #  ##  #   # ### #  # ###  ##
-#  # #  # ## ## #  # ## ## #   ## #  #  #
-#### ###  # # # #### # # # ##  # ##  #   #
-#  # #  # #   # #  # #   # #   #  #  #    #
-#  # #  # #   # #  # #   # ### #  #  #  ##
-
-
 	basic_battery = {
 
 		research_cost = 1
@@ -2444,10 +2247,6 @@ early_ship_hull_carrier = {
 				factor = 20
 			}
 			modifier = {
-				OR = {
-					tag = GER
-					tag = JAP
-				}
 				factor = 2
 			}
 		}
@@ -2488,10 +2287,6 @@ early_ship_hull_carrier = {
 				factor = 20
 			}
 			modifier = {
-				OR = {
-					tag = GER
-					tag = JAP
-				}
 				factor = 2
 			}
 		}
@@ -2527,10 +2322,6 @@ early_ship_hull_carrier = {
 				factor = 20
 			}
 			modifier = {
-				OR = {
-					tag = GER
-					tag = JAP
-				}
 				factor = 2
 			}
 		}
@@ -2722,29 +2513,15 @@ early_ship_hull_carrier = {
 
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-				}
 				factor = 20
 			}
-		}
+		
 
 		categories = {
 			naval_equipment
 			ship_modules_tech
 		}
 	}
-
-
-###   ##  #   #  ##   ##  ###      ##   ##  #  # ### ###   ##  #
-#  # #  # ## ## #  # #    #       #  # #  # ## #  #  #  # #  # #
-#  # #### # # # #### # ## ##      #    #  # # ##  #  ###  #  # #
-#  # #  # #   # #  # #  # #       #  # #  # #  #  #  #  # #  # #
-###  #  # #   # #  #  ##  ###      ##   ##  #  #  #  #  #  ##  ###
-
 	damage_control_1 = {
 
 		research_cost = 2.5
@@ -2766,11 +2543,9 @@ early_ship_hull_carrier = {
 			factor = 3
 			modifier = {
 				is_historical_focus_on = yes
-				tag = JAP
 				factor = 0.25
 			}
 			modifier = {
-				tag = USA
 				factor = 3
 			}
 			modifier = {
@@ -2806,11 +2581,9 @@ early_ship_hull_carrier = {
 			factor = 3
 			modifier = {
 				is_historical_focus_on = yes
-				tag = JAP
 				factor = 0.25
 			}
 			modifier = {
-				tag = USA
 				factor = 3
 			}
 			modifier = {
@@ -2842,11 +2615,9 @@ early_ship_hull_carrier = {
 			factor = 3
 			modifier = {
 				is_historical_focus_on = yes
-				tag = JAP
 				factor = 0.25
 			}
 			modifier = {
-				tag = USA
 				factor = 3
 			}
 			modifier = {
@@ -2860,15 +2631,6 @@ early_ship_hull_carrier = {
 			ship_modules_tech
 		}
 	}
-
-### ### ###  ###      ##   ##  #  # ### ###   ##  #       #   # ### ### #  #  ##  ###   ##
-#    #  #  # #       #  # #  # ## #  #  #  # #  # #       ## ## #    #  #  # #  # #  # #
-##   #  ###  ##      #    #  # # ##  #  ###  #  # #       # # # ##   #  #### #  # #  #  #
-#    #  #  # #       #  # #  # #  #  #  #  # #  # #       #   # #    #  #  # #  # #  #   #
-#   ### #  # ###      ##   ##  #  #  #  #  #  ##  ###     #   # ###  #  #  #  ##  ###  ##
-
-#NOTE: FIRE CONTROL SYSTEMS ARE IN ELECTROMECHANICAL ENGINEERING FOLDER!
-
 	fire_control_methods_1 = {
 
 		research_cost = 2.5
@@ -2899,7 +2661,6 @@ early_ship_hull_carrier = {
 				factor = 2
 			}
 			modifier = {
-				tag = JAP
 				factor = 5
 			}
 		}
@@ -2993,7 +2754,6 @@ early_ship_hull_carrier = {
 				factor = 2
 			}
 			modifier = {
-				tag = JAP
 				factor = 5
 			}
 		}
@@ -3003,14 +2763,6 @@ early_ship_hull_carrier = {
 			ship_modules_tech
 		}
 	}
-
-
-#   # ### #  # ###  ##
-## ##  #  ## # #   #
-# # #  #  # ## ##   #
-#   #  #  #  # #     #
-#   # ### #  # ### ##
-
 	basic_naval_mines = {
 
 		research_cost = 2
@@ -3043,12 +2795,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-					tag = SOV
-				}
 				factor = 6
 			}
 			modifier = {
@@ -3091,12 +2837,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-					tag = SOV
-				}
 				factor = 6
 			}
 		}
@@ -3127,12 +2867,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 1.5
 			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-					tag = SOV
-				}
 				factor = 6
 			}
 		}
@@ -3172,12 +2906,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-					tag = SOV
-				}
 				factor = 6
 			}
 			modifier = {
@@ -3213,12 +2941,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-					tag = SOV
-				}
 				factor = 5
 			}
 		}
@@ -3255,10 +2977,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = USA
-					tag = ENG
-				}
 				factor = 5
 			}
 		}
@@ -3294,11 +3012,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-				}
 				factor = 7
 			}
 		}
@@ -3329,10 +3042,6 @@ early_ship_hull_carrier = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				tag = USA
-				factor = 3
-			}
 		}
 
 		categories = {
@@ -3397,25 +3106,6 @@ early_ship_hull_carrier = {
 				factor = 0.5
 				has_war = no
 			}
-
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			modifier = {
-				has_war_with = JAP
-				factor = 2
-			}
-
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
-
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
 		}
 
 		categories = {
@@ -3456,25 +3146,6 @@ early_ship_hull_carrier = {
 				factor = 0.5
 				has_war = no
 			}
-
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			modifier = {
-				has_war_with = JAP
-				factor = 2
-			}
-			modifier = {
-				factor = 50
-				tag = JAP
-
-			}
-
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
 		}
 
 		categories = {
@@ -3502,24 +3173,6 @@ early_ship_hull_carrier = {
 			modifier = {
 				factor = 0.5
 				has_war = no
-			}
-
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			modifier = {
-				factor = 2
-				has_war_with = JAP
-			}
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
-
-			modifier = {
-				factor = 2
-				tag = ENG
 			}
 		}
 

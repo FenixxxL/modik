@@ -1206,6 +1206,8 @@ technologies = {
 		
 		nuclear_production = 1
 		on_research_complete = {
+			if = {
+			}
 		}
 		categories = {
 			nuclear

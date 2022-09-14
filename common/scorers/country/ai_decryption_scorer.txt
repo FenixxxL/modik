@@ -1,3 +1,5 @@
+
+
 ai_decryption_target_scorer = {
 	targets = {
 		target_array = potential_and_current_enemies
@@ -78,6 +80,26 @@ ai_decryption_target_scorer = {
 				add_to_temp_variable = { temp_score = 1.0 }
 				clamp_temp_variable = { var = temp_score max = 1.2 }
 				factor = temp_score
+			}
+			
+			# todo this should move to strat
+			modifier = {
+				FROM = {
+					tag = GER
+				}
+				OR = {
+					tag = SOV
+					tag = ENG
+				}
+				factor = 1.8
+			}
+			# todo this should move to strat
+			modifier = {
+				FROM = {
+					tag = GER
+				}
+				tag = POL
+				factor = 1.4
 			}
 		}
 	}

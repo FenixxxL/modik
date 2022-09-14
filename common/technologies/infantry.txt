@@ -78,6 +78,8 @@ technologies = {
 				factor = 10
 				tag = CHI
 				
+				OR = {
+				}
 			}
 			
 			modifier = {
